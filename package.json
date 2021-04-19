@@ -1,0 +1,10 @@
+{
+    "name": "mycli",
+    "version": "0.0.1",
+    "bin": {
+      "mycli": "./bin/index.js"
+    },
+    "dependencies": {
+      "commander": "^7.2.0"
+    }
+  }
