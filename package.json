@@ -1,10 +1,16 @@
 {
-    "name": "mycli",
-    "version": "0.0.1",
-    "bin": {
-      "mycli": "./bin/index.js"
-    },
-    "dependencies": {
-      "commander": "^7.2.0"
-    }
+  "name": "mycli",
+  "version": "0.0.1",
+  "bin": {
+    "mycli": "./bin/index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^7.2.0",
+    "fs-extra": "^9.1.0",
+    "path": "^0.12.7",
+    "through2": "^4.0.2",
+    "vinyl-fs": "^3.0.3",
+    "which": "^2.0.2"
   }
+}
