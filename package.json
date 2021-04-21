@@ -2,7 +2,11 @@
   "name": "mycli",
   "version": "0.0.1",
   "bin": {
-    "mycli": "./bin/index.js"
+    "xr": "bin/xr",
+    "xr-add": "bin/xr-add",
+    "xr-delete": "bin/xr-delete",
+    "xr-list": "bin/xr-list",
+    "xr-init": "bin/xr-init"
   },
   "dependencies": {
     "chalk": "^4.1.0",
